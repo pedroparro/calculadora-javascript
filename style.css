@@ -1,0 +1,157 @@
+/*Author: Pedro Parro*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    background: rgb(14, 13, 13);
+}
+#h2 {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: #f6f6f6;
+    text-align: center;
+}
+h2 {
+    font-size: 30px;
+    padding: 2.5% 10%;
+    font-weight: bold;
+}
+/*section calc*/
+.calc {
+    background: #333;
+    width: 300px;
+    height: 403px;
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 3px;
+    margin-top: 20px;
+}
+/*input*/
+#calc-input {
+    width: 300px;
+    height: 59px;
+    outline: 0;
+    border: 0;
+    border-radius: 3px;
+    font-size: 22px;
+    padding-left: 10px;
+    box-shadow: 0 0 1rem #fff;
+}
+/*rows*/
+.calc-rows-1 {
+    width: 100%;
+    position: absolute;
+    display: inline-block;
+    top: 21%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 10px;
+    margin-left: 2px;
+}
+.calc-rows-2 {
+    width: 100%;
+    position: absolute;
+    display: inline-block;
+    top: 31%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 38px;
+    margin-left: 2px;
+
+}
+.calc-rows-3 {
+    width: 100%;
+    position: absolute;
+    display: inline-block;
+    top: 41%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 66px;
+    margin-left: 2px;
+
+}
+.calc-rows-4 {
+    width: 100%;
+    position: absolute;
+    display: inline-block;
+    top: 51%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 94px;
+    margin-left: 2px;
+}
+.calc-rows-5 {
+    width: 100%;
+    position: absolute;
+    display: inline-block;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 146px;
+    margin-left: 2px;
+}
+
+/*btn rows*/
+.btn-rows {
+    width: 75px;
+    height: 70px;
+    border-radius: 3px;
+    outline: 0;
+    border: 1px solid #333;
+    text-align: center;
+    margin: 0px -2px;
+    background-color: darkslategrey;
+    color: #222;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 0 1rem #fff;
+}
+.btn-rows:hover {
+    background-color: rgb(80, 124, 124);
+    color: white;
+    transition: .5s;
+}
+/*footer*/
+footer {
+    background-color: black;
+    color: #f6f6f6;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    margin: auto auto;
+    margin-top: 460px;
+    margin-bottom: 0;
+    padding: 20px 10px;
+}
+/*RESPONSIVE*/
+/*500px*/
+@media screen and (max-width: 500px){
+    h2 {
+        height: 70px;
+        background-color: #333;
+        font-size: 19px;
+        padding: 7% 10%;
+        font-weight: bold;
+    }
+    #h2 {
+        height: 70px;
+    }
+    .calc {
+        margin-top: 0px;
+    }
+    footer {
+        background-color: #333;
+        margin-top: 527px;
+        padding: 15px;
+        font-size: 13px;
+    }
+}
